@@ -9,7 +9,7 @@ exports.config = {
   exclude: [],
 
   capabilities: [{
-    browser: 'chrome',
+    browserName: 'chrome',
     name: 'multiple_test',
     build: 'webdriver-browserstack'
   }],

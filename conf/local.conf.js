@@ -11,7 +11,7 @@ exports.config = {
   exclude: [],
 
   capabilities: [{
-    browser: 'chrome',
+    browserName: 'chrome',
     name: 'local_test',
     build: 'webdriver-browserstack',
     'browserstack.local': true

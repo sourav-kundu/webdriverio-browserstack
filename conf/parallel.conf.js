@@ -15,13 +15,13 @@ exports.config = {
   },
 
   capabilities: [{
-    browser: 'chrome'
+    browserName: 'chrome'
   },{
-    browser: 'firefox'
+    browserName: 'firefox'
   },{
-    browser: 'internet explorer'
+    browserName: 'internet explorer'
   },{
-    browser: 'safari'
+    browserName: 'safari'
   }],
 
   logLevel: 'warn',
